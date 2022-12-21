@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <h1>Treni in partenza dalla data odierna</h1>
+    <h1>Treni in partenza</h1>
     @forelse ($trains as $train)
         <li>
             <h3>
